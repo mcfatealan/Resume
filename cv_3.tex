@@ -1,0 +1,277 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Two Column One Page Curriculum Vitae
+% LaTeX Template
+% Version 1.1 (24/1/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro (The CV Inn)
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+% 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{article} % Font size - 10pt, 11pt or 12pt
+
+\usepackage[hmargin=1.25cm, vmargin=1.5cm]{geometry} % Document margins
+
+\usepackage{marvosym} % Required for symbols in the colored box
+\usepackage{ifsym} % Required for symbols in the colored box
+
+\usepackage[usenames,dvipsnames]{xcolor} % Allows the definition of hex colors
+
+% Fonts and tweaks for XeLaTeX
+\usepackage{fontspec,xltxtra,xunicode}
+\defaultfontfeatures{Mapping=tex-text}
+\setromanfont[Mapping=tex-text]{Hoefler Text} % Main document font
+\setsansfont[Scale=MatchLowercase,Mapping=tex-text]{Gill Sans} % Font for your name at the top
+%\setmonofont[Scale=MatchLowercase]{Andale Mono}
+
+% Colors for links, text and headings
+\usepackage{hyperref}
+\definecolor{linkcolor}{HTML}{506266} % Blue-gray color for links
+\definecolor{shade}{HTML}{F5DD9D} % Peach color for the contact information box
+\definecolor{text1}{HTML}{2b2b2b} % Main document font color, off-black
+\definecolor{headings}{HTML}{701112} % Dark red color for headings
+% Other color palettes: shade=B9D7D9 and linkcolor=A40000; shade=D4D7FE and linkcolor=FF0080
+
+\hypersetup{colorlinks,breaklinks, urlcolor=linkcolor, linkcolor=linkcolor} % Set up links and colors
+
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhf{}
+% Headers and footers can be added with the \lhead{} \rhead{} \lfoot{} \rfoot{} commands
+% Example footer:
+%\rfoot{\color{headings} {\sffamily Last update: \today}. Typeset with Xe\LaTeX}
+
+\renewcommand{\headrulewidth}{0pt} % Get rid of the default rule in the header
+
+\usepackage{titlesec} % Allows creating custom \section's
+
+% Format of the section titles
+\titleformat{\section}{\color{headings}
+\scshape\Large\raggedright}{}{0em}{}[\color{black}\titlerule]
+
+\titlespacing{\section}{0pt}{0pt}{5pt} % Spacing around titles
+
+\begin{document}
+
+\color{text1} % Sets the default text color for the whole document to the color defined as 'text1'
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\sffamily\Huge Chang Lou}\\ % Your name
+{\color{headings}\fontspec[Variant = 2]{Zapfino} Curriculum {Vit\fontspec[Variant = 3]{Zapfino}\ae}\\[15pt]\par} % Curriculum vitae text in the Zapfino font
+	
+%----------------------------------------------------------------------------------------
+
+\begin{minipage}[t]{0.5\textwidth} % Start the left-hand side of the page
+\vspace{0pt} % Trick for alignment
+	
+%----------------------------------------------------------------------------------------
+%	RESEARCH EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Research Experience} 
+
+
+
+
+
+%------------------------------------------------
+% RESEARCH EXPERIENCE 2
+%------------------------------------------------
+
+{\raggedleft\textsc{July 2015 -- Sept 2015}\par}
+
+{\raggedright\large Research Assistant\\
+\textit{Columbia University Software Systems Lab}\\[5pt]}
+Advisor: Junfeng Yang\\
+\normalsize{Focusing on enabling Valgrind to detect data races in UserMode Linux, involving multi-thread programming, kernel programming and dynamic instrument tools.}\\
+
+%------------------------------------------------
+% RESEARCH EXPERIENCE 1
+%------------------------------------------------
+
+{\raggedleft\textsc{April 2014 -- July 2015}\par}
+
+{\raggedright\large Research Assistant\\
+\textit{Shanghai Jiao Tong University Advanced Network Lab}\\[5pt]}
+Advisor: Xiaofeng Gao\\
+\normalsize{Focusing on energy efficiency algorithms in wireless sensor networks.}\\
+%----------------------------------------------------------------------------------------	
+
+%----------------------------------------------------------------------------------------
+%	PROJECT EXPERIENCE
+%----------------------------------------------------------------------------------------
+
+\section{Project Experience} 
+%------------------------------------------------
+% PROJECT EXPERIENCE 1
+%------------------------------------------------
+
+{\raggedleft\textsc{July 2015 -- Sept 2015}\par}
+
+{\raggedright\large Enabling Valgrind on UserMode Linux\\
+[5pt]}
+
+\normalsize{Data races in kernel are serious problems in system security area. So far there proves to be no efficient kernel race detector. So we're working on enabling Helgrind, a powerful thread debugger in Valgrind tool suite which finds data races in multithreaded programs using (POSIX p-)threads, to detect kernel races. }\\
+%------------------------------------------------
+% PROJECT EXPERIENCE 2
+%------------------------------------------------
+
+{\raggedleft\textsc{April 2014 -- July 2015}\par}
+
+{\raggedright\large Coverage and Data Engineering in the Next Generation Wireless Network (4G)\\
+[5pt]}
+
+\normalsize{A novel scheme for wireless sensor networks is put forward to optimize the network energy consumption. The new model turns the energy cost issue into an integer linear programming problem.  The details have been written into one paper accepted by \textbf{WASA 2015}.}\\
+
+%------------------------------------------------
+% PROJECT EXPERIENCE 3
+%------------------------------------------------
+
+{\raggedleft\textsc{Sept 2014 -- Dec 2014}\par}
+
+{\raggedright\large FreeFLY:  An Automatic Control System on Quadcopter\\
+[5pt]}
+
+\normalsize{The quadcopter is a multi-rotor helicopter that is lifted and propelled by four rotors. This vehicle has strong potentials in air movements and it deserves a better control system instead of dumb manual controls. We built a system running on host machines to receive data and send control signals. With the newly-built system, the quadcopter is able to perform automatic flying controls including both environment (like black lines) and human movement tracking. We also add a new control mode for users to manipulate the quadcopter with only a laser pointer. }\\
+
+%----------------------------------------------------------------------------------------	
+
+%----------------------------------------------------------------------------------------	
+
+\end{minipage} % End the left-hand side of the page
+\hfill
+\begin{minipage}[t]{0.44\textwidth} % Start the right-hand side of the page
+\vspace{0pt} % Trick for alignment
+
+%----------------------------------------------------------------------------------------
+%	COLORED BOX
+%----------------------------------------------------------------------------------------
+
+\colorbox{shade}{\textcolor{text1}{
+\begin{tabular}{c|p{7cm}}
+\raisebox{-4pt}{\textifsymbol{18}} & 800 Dongchuan Road, Shanghai, China \\ % Address
+\raisebox{-3pt}{\Mobilefone} & +86 188 1821 3994 \\ % Phone number
+\raisebox{-1pt}{\Letter} & \href{mailto:louchang \_ new@163.com}{louchang \_ new@163.com} \\ % Email address
+\Keyboard & \href{http://wizardbookforalan.appspot.com}{http://wizardbookforalan.appspot.com} \\ % Website
+\end{tabular}
+}
+}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education} 
+
+\begin{tabular}{rl} % Start a table with two columns, one for dates and one for qualifications
+
+%------------------------------------------------
+% EDUCATION 1
+%------------------------------------------------
+
+2012 -- 2016 & \textbf{B.S., Computer Science} \\ 
+& \textsc{GPA: 3.65/4.0} \\ 
+& \textit{Shanghai Jiao Tong University}\\
+
+	
+%----------------------------------------------------------------------------------------
+
+\end{tabular}\\[10pt]
+
+
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS
+%----------------------------------------------------------------------------------------
+
+\section{Publications} 
+
+%------------------------------------------------
+% PUBLICATION 1
+%------------------------------------------------
+
+
+
+{\raggedright\large Energy-Aware Clustering and Routing Scheme in Wireless Sensor Network\\
+[5pt]}
+\normalsize{\textbf{Chang Lou}, Xiaofeng Gao, Fan Wu, Guihai Chen}\\
+\textit{The 10th International Conference on Wireless Algorithms, Systems, and Applications}\\
+
+%----------------------------------------------------------------------------------------
+%	PATENTS
+%----------------------------------------------------------------------------------------
+
+\section{Patents} 
+
+%------------------------------------------------
+% PATENT 1
+%------------------------------------------------
+
+
+
+{\raggedright\large Beautifying Algorithm on QR Code\\
+[5pt]}
+\normalsize{\textbf{Chang Lou}, Siyuan Qiao, Weichen Li}\\
+
+
+%----------------------------------------------------------------------------------------
+%	AWARDS
+%----------------------------------------------------------------------------------------
+
+\section{Awards} 
+
+\begin{tabular}{rl}
+2015	 & \textbf{The Meritorious Winner}\\
+& \textit{Mathematical Contest in Modeling (USA)}\\ \\
+
+%------------------------------------------------
+
+2014 & \textbf{The Second Prize}\\
+& \textit{National Mathematical Contest in Modeling (China)}\\ \\
+
+%------------------------------------------------
+
+2014 & \textbf{Shanghai Jiao Tong University Scholarship}\\
+& \textit{Shanghai Jiao Tong University}
+\end{tabular}\\[10pt]
+
+%----------------------------------------------------------------------------------------
+%----------------------------------------------------------------------------------------
+%	PROJECT continue
+%----------------------------------------------------------------------------------------
+
+\section{Project Experience (Cont.)} 
+
+%------------------------------------------------
+% PROJECT EXPERIENCE 4
+%------------------------------------------------
+
+{\raggedleft\textsc{Sept 2014 -- Dec 2014}\par}
+
+{\raggedright\large MusCode: An QR Code Abstraction App on Android\\
+[5pt]}
+
+\normalsize{This app allows you to generate arbitrary picture containing arbitrary information recognized by QR code scanners. It adapts a novel algorithm making the quality and speed of image generation greatly improved. I assisted one of our teammates wrote one conference paper describing details of our algorithm, which won the \textbf{best paper award of CGI 2015}. A more industrial version of internal technique has been used to apply for \textbf{patents}.}\\
+
+
+	
+\end{minipage} % End right-hand side of the page
+
+\end{document}  
