@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  20 OCT 2015 00:05
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  1 DEC 2015 00:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1000,6 +1000,12 @@ high
  []
 
 
+Underfull \hbox (badness 1005) in paragraph at lines 101--103
+\EU1/HoeflerText(0)/m/n/10 performance and robust distributed systems. My role 
+is to
+ []
+
+
 Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
  []
@@ -1023,24 +1029,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 125--128
 
 Underfull \hbox (badness 10000) in paragraph at lines 125--128
 
- []
-
-
-Underfull \hbox (badness 2020) in paragraph at lines 144--145
-\EU1/HoeflerText(0)/m/n/10 tomatic controlling quadcopter. Features includes mu
-ltiple
- []
-
-
-Underfull \hbox (badness 2961) in paragraph at lines 144--145
-\EU1/HoeflerText(0)/m/n/10 controlling mode (environment tracking, human moveme
-nt
- []
-
-
-Underfull \hbox (badness 5862) in paragraph at lines 144--145
-\EU1/HoeflerText(0)/m/n/10 tracking, laser pointer controlling), low latency an
-d self-
  []
 
 
@@ -1126,7 +1114,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
 Here is how much of TeX's memory you used:
  22215 strings out of 493706
  409057 string characters out of 6145769
- 459380 words of memory out of 5000000
+ 460380 words of memory out of 5000000
  25389 multiletter control sequences out of 15000+600000
  4824 words of font info for 47 fonts, out of 8000000 for 9000
  1328 hyphenation exceptions out of 8191
