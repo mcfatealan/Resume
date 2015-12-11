@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  1 DEC 2015 00:13
+This is XeTeX, Version 3.14159265-2.6-0.99992 (TeX Live 2015) (preloaded format=xelatex 2015.5.24)  12 DEC 2015 00:39
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1000,20 +1000,8 @@ high
  []
 
 
-Underfull \hbox (badness 1005) in paragraph at lines 101--103
-\EU1/HoeflerText(0)/m/n/10 performance and robust distributed systems. My role 
-is to
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 101--103
 
- []
-
-
-Underfull \hbox (badness 1983) in paragraph at lines 114--116
-\EU1/HoeflerText(0)/m/n/10 Focused on enabling Helgrind, a powerful thread debu
-gger
  []
 
 
